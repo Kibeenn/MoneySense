@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bg"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity2">
+
+    <ScrollView
+        android:layout_width="411dp"
+        android:layout_height="659dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="ExtraText">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="1dp"
+                android:alpha="0.8"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="Sign Up"
+                android:textColor="@color/primary_text"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="1dp"
+                android:alpha="0.8"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="___________________________________________________"
+                android:textColor="@color/text1"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/email_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_input"
+                android:hint="Email"
+                android:alpha="0.8"
+                android:paddingLeft="22dp"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp"
+                android:paddingRight="22dp"
+                android:singleLine="true"
+                android:textSize="18sp"
+                android:textColor="@color/primary_text" />
+
+            <EditText
+                android:id="@+id/password_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_input"
+                android:hint="Password"
+                android:alpha="0.8"
+                android:paddingLeft="22dp"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp"
+                android:paddingRight="22dp"
+                android:singleLine="true"
+                android:textSize="18sp"
+                android:textColor="@color/primary_text" />
+
+            <EditText
+                android:id="@+id/con_password_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_input"
+                android:hint="Confirm Password"
+                android:alpha="0.8"
+                android:paddingLeft="22dp"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp"
+                android:paddingRight="22dp"
+                android:singleLine="true"
+                android:textSize="18sp"
+                android:textColor="@color/primary_text"/>
+
+            <Button
+                android:id="@+id/btn_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/main2"
+                android:padding="12dp"
+                android:text="REGISTER"
+                android:textColor="@color/bg"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cornerRadius="8dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="1dp"
+                android:alpha="0.8"
+                android:gravity="center"
+                android:padding="1dp"
+                android:text="___________________________________________________"
+                android:textColor="@color/text1"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/reg_terms_cons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="1dp"
+                android:padding="8dp"
+                android:text="I accept the Terms and Conditions"
+                android:textSize="16sp"
+                android:alpha="0.8"
+                android:textColor="@color/text1"  />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
